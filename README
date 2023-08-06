@@ -1,0 +1,77 @@
+# API - Utilizando PHP + MySql + DOCKER
+
+Readme.md
+
+
+```sql workbench
+CREATE DATABASE apimysql;
+
+USE apimysql;
+
+CREATE TABLE cadastro (
+    cod INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    sobrenome VARCHAR(100),
+    idade INT,
+    pais VARCHAR(100)
+);
+
+```
+
+
+- Configurar o arquivo conexao.php com o banco de dados Mysql:
+
+``` php
+<?php
+
+
+$host = "IP do container ou nome do container";
+$user = "root";
+$password = "*****";
+$dbname = "apimysql";
+try {
+    $coon = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
+    $coon->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Erro na conexão: " . $e->getMessage();
+}
+```docker
+ docker build -t <nome-da-imagem> . "para criar uma imagem dos arquivos"
+
+docker run -p 8081:80  --name <nome-docontainer> -d <nome-da-imagem>
+
+docker run -d --name <meu-banco-de-dados> -e MYSQL_ROOT_PASSWORD=<senha-desejada> -p 3306:3306 mysql:latest
+
+
+##
+
+# Views:
+
+. Login:
+
+![print.tela-cadastro](https://prnt.sc/1YP4Hf9wXo16)
+
+. Cadastro:
+
+![print.tela-cadastro](https://prnt.sc/E_CyNI3L6L0O)
+
+. Database:
+
+![print.database](https://prnt.sc/3DcaJ1mu0Mso)
+
+. Inf. :
+
+![print.inf](https://prnt.sc/kpRNseGnJKo1)
+
+. Edit. :
+
+![print.edit](https://prnt.sc/92iUKPP6Cqrn)
+
+. Logs. :
+
+![print.logs](https://prnt.sc/m1F25pq-JClF)
+
+# Redes Sociais: 
+https://www.linkedin.com/in/sergio-s-gomes/
+
+sergiostg@live.com
