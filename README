@@ -47,29 +47,23 @@ docker run -d --name <meu-banco-de-dados> -e MYSQL_ROOT_PASSWORD=<senha-desejada
 
 # Views:
 
-. Login:
-
-![print.tela-cadastro](https://prnt.sc/1YP4Hf9wXo16)
+. Acesso:
+![acesso](https://user-images.githubusercontent.com/141530967/258614822-46e1e318-5eda-491c-8a1e-2869d07182fa.jpg)
 
 . Cadastro:
-
-![print.tela-cadastro](https://prnt.sc/E_CyNI3L6L0O)
+![cadastro](https://github-production-user-asset-6210df.s3.amazonaws.com/141530967/258614829-ba3956ac-2cea-42be-9990-41fa7f90cab7.jpg)
 
 . Database:
+![database](https://github-production-user-asset-6210df.s3.amazonaws.com/141530967/258614848-be1f78fc-9bc1-4015-8771-124610cf6daa.jpg)
 
-![print.database](https://prnt.sc/3DcaJ1mu0Mso)
-
-. Inf. :
-
-![print.inf](https://prnt.sc/kpRNseGnJKo1)
+. Info. :
+![informacoes](https://user-images.githubusercontent.com/141530967/258614853-bedf9076-9c20-46e5-a2e9-3a7ee3dae45c.jpg)
 
 . Edit. :
+![editar](https://github-production-user-asset-6210df.s3.amazonaws.com/141530967/258614861-0fc89168-c566-4520-a4fb-d6dee1758e99.jpg)
 
-![print.edit](https://prnt.sc/92iUKPP6Cqrn)
-
-. Logs. :
-
-![print.logs](https://prnt.sc/m1F25pq-JClF)
+. Log:
+![log](https://github-production-user-asset-6210df.s3.amazonaws.com/141530967/258614877-c7d57e99-7f21-4424-a3bb-5ae2fc19f0f5.jpg)
 
 # Redes Sociais: 
 https://www.linkedin.com/in/sergio-s-gomes/
